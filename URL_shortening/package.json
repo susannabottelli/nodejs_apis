@@ -16,9 +16,7 @@
     "dependencies": {
         "config": "^3.3.7",
         "express": "^4.18.1",
-        "mogoose": "^0.0.1-security",
         "mongo-sanitize": "^1.1.0",
-        "mongoose": "^6.3.6",
         "shortid": "^2.2.16",
         "valid-url": "^1.0.9"
     },
