@@ -1,7 +1,7 @@
 {
     "name": "mock_autentication_api",
     "version": "1.0.0",
-    "description": "authenitcation API with mock user - no database connection",
+    "description" "authentication API with mock user - no database connection",
     "main": "app.js",
     "scripts": {
         "start": "node index",
