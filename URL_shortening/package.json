@@ -1,0 +1,27 @@
+{
+    "name": "url_shortener_service",
+    "version": "1.0.0",
+    "description": "get random-generated or custom URL",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index"
+    },
+    "keywords": [
+        "url",
+        "api"
+    ],
+    "author": "SB",
+    "license": "ISC",
+    "dependencies": {
+        "config": "^3.3.7",
+        "express": "^4.18.1",
+        "mogoose": "^0.0.1-security",
+        "mongoose": "^6.3.6",
+        "shortid": "^2.2.16",
+        "valid-url": "^1.0.9"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.16"
+    }
+}
