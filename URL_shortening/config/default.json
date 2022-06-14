@@ -1,0 +1,6 @@
+//For my privacy I have removed my MongoDB username and password
+
+{
+    "mongoURI": "mongodb+srv://username:password@cluster1.3ljvy.mongodb.net/?retryWrites=true&w=majority",
+    "baseURL": "http://localhost:3000/"
+}
