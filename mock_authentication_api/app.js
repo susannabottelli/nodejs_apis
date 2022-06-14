@@ -24,7 +24,7 @@ authAPI.post('/main/login', (req, res) => {
 
 
     //
-    jwt.sign({ user: user }, 'secretkey', (err, token) => { // Here I can also set expiration time for automaic log out and other parameters
+    jwt.sign({ user: user }, 'secretkey', (err, token) => { // Here I can also set expiration time for automatic log out and other parameters
         res.json({
             token: token
         });
